@@ -3,6 +3,7 @@
 > Automated Supply Chain Risk Engine, Dependency DAG Reasoning, and Attack Indicator Analyzer for Enterprise DevSecOps.
 
 DepScan is an enterprise-grade Software Supply Chain Security Analyzer built for **PS14: Software Supply Chain Security Analyzer**. It identifies risky dependencies, suspicious package behaviors, and active supply chain attack vectors across polyglot repositories with a **Zero Code Execution Guarantee**.
+It also features a beautifully designed modern web dashboard (website) for visualizing supply chain risks, complete with an interactive landing page.
 
 ---
 
