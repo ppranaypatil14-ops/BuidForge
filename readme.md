@@ -31,17 +31,8 @@ In compliance with advanced security standards, DepScan **never executes untrust
 
 ## 🚀 Quick Start
 
-### 1. Installation
-```bash
-# Clone the repository
-git clone https://github.com/Atharvchaskar008/Kurukshetra-hackathon.git
-cd Kurukshetra-hackathon
 
-# Install backend dependencies
-pip install -r requirements.txt
-```
-
-### 2. Standalone CLI Runner (CI/CD & Evaluators)
+### 1. Standalone CLI Runner (CI/CD & Evaluators)
 ```bash
 # Terminal scan with ANSI summary table
 python -m backend.cli ./demo-repository
@@ -53,7 +44,7 @@ python -m backend.cli ./demo-repository --sbom sbom.cdx.json --sarif results.sar
 python -m backend.cli ./demo-repository --gate
 ```
 
-### 3. Running the REST API Server
+### 2. Running the REST API Server
 ```bash
 # Start FastAPI backend
 uvicorn backend.main:app --host 127.0.0.1 --port 8000 --reload
